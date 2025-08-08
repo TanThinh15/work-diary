@@ -17,7 +17,7 @@ class AboutDialog:
 
         ttk.Label(frame, text="Hệ thống Quản lý Nhật ký Công việc", font=("Helvetica", 12, "bold")).pack(pady=5)
         ttk.Label(frame, text=f"Phiên bản: {app_version}").pack(pady=2)
-        ttk.Label(frame, text="Tác giả: Work Diary Team").pack(pady=2)
+        ttk.Label(frame, text="Tác giả: Shin").pack(pady=2)
         ttk.Label(frame, text="© 2025 All Rights Reserved.").pack(pady=2)
         
         ttk.Button(frame, text="Đóng", command=self.dialog.destroy).pack(pady=10)
