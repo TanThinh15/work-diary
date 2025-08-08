@@ -1,0 +1,19 @@
+{
+    "app_version": "2.0.0",
+    "db_version": 2,
+    "db_name": "data/work_diary.db",
+    "theme": "yotta",
+    "recent_records_limit": 100,
+    "ui": {
+        "title": "Quản lý Nhật ký Công việc Cá nhân",
+        "geometry": "1000x650"
+    },
+    "main_tasks": [
+        "Quản trị hệ thống mạng máy tính, camera an ninh, tổng đài điện thoại",
+        "Hỗ trợ, tư vấn người dùng về thiết bị, phần mềm ứng dụng",
+        "Phối hợp thực hiện các nhiệm vụ khác của phòng",
+        "Thực hiện các nhiệm vụ khác do trưởng phòng phân công"
+    ],
+    "auto_update_check": true,
+    "update_repo_url": "https://api.github.com/repos/your_github_username/your_repo_name/releases/latest"
+}

@@ -1,0 +1,23 @@
+# Work Diary Management System Dependencies
+# Version: 2.0.0
+
+# GUI Framework and Themes
+ttkthemes>=3.2.2
+tkcalendar>=1.6.1
+
+# Document Processing
+openpyxl>=3.1.2
+python-docx>=0.8.11
+
+# Network and Updates
+requests>=2.31.0
+
+# Data Processing (optional for advanced features)
+pandas>=2.0.3
+
+# Development and Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Packaging (optional)
+pyinstaller>=5.13.0
