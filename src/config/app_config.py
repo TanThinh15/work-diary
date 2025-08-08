@@ -23,7 +23,7 @@ class AppConfig:
                 "Thực hiện các nhiệm vụ khác do trưởng phòng phân công"
             ],
             "auto_update_check": True,
-            "update_repo_url": "https://api.github.com/repos/your_github_username/your_repo_name/releases/latest"
+            "update_repo_url": "https://api.github.com/repos/TanThinh15/work-diary/releases/latest"
         }
         # Chỉ gọi load_config() một lần duy nhất để khởi tạo dữ liệu
         self._config_data = self.load_config()
