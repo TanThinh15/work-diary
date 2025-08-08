@@ -16,7 +16,7 @@ class ReportTab:
         self.open_backup_manager_callback = open_backup_manager_callback
         
         self._main_tasks = self.config.get("main_tasks", []) # Get tasks from config
-        self._statuses = ["Đang thực hiện", "Hoàn thành", "Tạm dừng", "Chờ phê duyệt"]
+        self._statuses = ["Đang thực hiện", "Hoàn thành", "Tạm dừng"]
         self.after_id = None # For debounce
         
         self._create_widgets()
